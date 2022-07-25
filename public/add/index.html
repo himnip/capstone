@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="add.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+   
+</head>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="https://i.pinimg.com/564x/ad/da/86/adda868934a159b88cdb0399c60509e4.jpg" alt="Read Well Car">
+            </div>
+            <uv class="nav-area">
+                <li class="crumb"><a href="/">Home</a></li>
+                <li class="crumb"><a href="/reviews">Reviews</a></li>
+                <li class="crumb"><a href="/add">Add a Review</a></li>
+            </uv>
+        </div>
+    </header>
+    <body>
+    <h2>Read Well</h2>
+        <form id="book-review">
+            Name of book:
+            <input type="text" id="name">
+
+            Image of book:
+            <input type="text" id="url">
+
+            <p>
+                <label>Review:</label>
+            </p>
+            <textarea name="review" maxlength="500" id="review"></textarea>
+
+            <p><button>Submit Review</button></p>
+            <input type="reset">
+       
+
+    </body>
+    </html>
+    
+    <br>
+    <br>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="add.js"></script>
+    
+    <a href="/"><< Back </a>
