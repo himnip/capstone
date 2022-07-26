@@ -26,6 +26,6 @@ app.post("/api/books", (req, res) => {
     res.status(200).end();
 });
 
+let port = process.env.PORT || 4000
 
-
-app.listen(process.env.PORT || 3000, () => console.log("Server running on "));
+app.listen(port, () => console.log("Server running on "));
